@@ -1,0 +1,371 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<XML ID="EQInterfaceDefinitionLanguage">
+	<Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes" />
+
+<!-- Modified by Sylphan in 2016 -->
+
+<!-- Removed all gaps and borders, and Done buttons stretch to fit any shape (even one-wide) -->
+<!-- Only the upper right corner can be used for resizing -->
+<!-- On TS containers, the icon serves as the combine button -->
+<!-- Done buttons (if any) can be moved to top, middle, or bottom by changing the order of the Pieces lines -->
+
+<!-- Done buttons (if any) are at the bottom in this version -->
+
+	<Ui2DAnimation item = "C_My_Container_ClearBorder">
+		<Cycle>false</Cycle>
+		<Frames>
+			<Texture>window_pieces05.tga</Texture>
+			<Location>
+				<X>38</X>
+				<Y>234</Y>
+			</Location>
+			<Size>
+				<CX>4</CX>
+				<CY>4</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item = "C_My_Container_NoClickBorder">
+		<Cycle>false</Cycle>
+		<Frames>
+			<Texture>window_pieces05.tga</Texture>
+			<Location>
+				<X>38</X>
+				<Y>234</Y>
+			</Location>
+			<Size>
+				<CX>0</CX>
+				<CY>4</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+	<WindowDrawTemplate item="WDT_C_RoundedContainer">
+		<Background>wnd_bg_light_rock.tga</Background>
+		<VSBTemplate>
+			<UpButton>
+				<Normal>A_VSBUpNormal</Normal>
+				<Pressed>A_VSBUpPressed</Pressed>
+				<Flyby>A_VSBUpFlyby</Flyby>
+				<Disabled>A_VSBUpDisabled</Disabled>
+				<PressedFlyby>A_VSBUpPressedFlyby</PressedFlyby>
+			</UpButton>
+			<DownButton>
+				<Normal>A_VSBDownNormal</Normal>
+				<Pressed>A_VSBDownPressed</Pressed>
+				<Flyby>A_VSBDownFlyby</Flyby>
+				<Disabled>A_VSBDownDisabled</Disabled>
+				<PressedFlyby>A_VSBDownPressedFlyby</PressedFlyby>
+			</DownButton>
+			<Thumb>
+				<Top>A_VSBThumbTop</Top>
+				<Bottom>A_VSBThumbBottom</Bottom>
+				<Middle>A_VSBThumbMiddle</Middle>
+				<OverlapLeft>0</OverlapLeft>
+				<OverlapTop>0</OverlapTop>
+				<OverlapRight>0</OverlapRight>
+				<OverlapBottom>0</OverlapBottom>
+			</Thumb>
+			<MiddleTextureInfo>scrollbar_gutter.tga</MiddleTextureInfo>
+			<MiddleTint>
+				<Alpha>255</Alpha>
+				<R>128</R>
+				<G>128</G>
+				<B>128</B>
+			</MiddleTint>
+		</VSBTemplate>
+		<HSBTemplate>
+			<UpButton>
+				<Normal>A_HSBLeftNormal</Normal>
+				<Pressed>A_HSBLeftPressed</Pressed>
+				<Flyby>A_HSBLeftFlyby</Flyby>
+				<Disabled>A_HSBLeftDisabled</Disabled>
+				<PressedFlyby>A_HSBLeftPressedFlyby</PressedFlyby>
+			</UpButton>
+			<DownButton>
+				<Normal>A_HSBRightNormal</Normal>
+				<Pressed>A_HSBRightPressed</Pressed>
+				<Flyby>A_HSBRightFlyby</Flyby>
+				<Disabled>A_HSBRightDisabled</Disabled>
+				<PressedFlyby>A_HSBRightPressedFlyby</PressedFlyby>
+			</DownButton>
+			<Thumb>
+				<Right>A_HSBThumbRight</Right>
+				<Left>A_HSBThumbLeft</Left>
+				<Middle>A_HSBThumbMiddle</Middle>
+				<OverlapLeft>0</OverlapLeft>
+				<OverlapTop>0</OverlapTop>
+				<OverlapRight>0</OverlapRight>
+				<OverlapBottom>0</OverlapBottom>
+			</Thumb>
+			<MiddleTextureInfo>scrollbar_Hgutter.tga</MiddleTextureInfo>
+			<MiddleTint>
+				<Alpha>255</Alpha>
+				<R>128</R>
+				<G>128</G>
+				<B>128</B>
+			</MiddleTint>
+		</HSBTemplate>
+		<CloseBox>
+			<Normal>A_CloseBtnNormal</Normal>
+			<Pressed>A_CloseBtnPressed</Pressed>
+			<Flyby>A_CloseBtnFlyby</Flyby>
+			<Disabled>A_CloseBtnDisabled</Disabled>
+			<PressedFlyby>A_CloseBtnPressedFlyby</PressedFlyby>
+		</CloseBox>
+		<QMarkBox>
+			<Normal>A_QMarkBtnNormal</Normal>
+			<Pressed>A_QMarkBtnPressed</Pressed>
+			<Flyby>A_QMarkBtnFlyby</Flyby>
+			<Disabled>A_QMarkBtnDisabled</Disabled>
+			<PressedFlyby>A_QMarkBtnPressedFlyby</PressedFlyby>
+		</QMarkBox>
+		<MinimizeBox>
+			<Normal>A_MinimizeBtnNormal</Normal>
+			<Pressed>A_MinimizeBtnPressed</Pressed>
+			<Flyby>A_MinimizeBtnFlyby</Flyby>
+			<Disabled>A_MinimizeBtnDisabled</Disabled>
+			<PressedFlyby>A_MinimizeBtnPressedFlyby</PressedFlyby>
+		</MinimizeBox>
+		<MaximizeBox>
+			<Normal>A_MaximizeBtnNormal</Normal>
+			<Pressed>A_MaximizeBtnPressed</Pressed>
+			<Flyby>A_MaximizeBtnFlyby</Flyby>
+			<Disabled>A_MaximizeBtnDisabled</Disabled>
+			<PressedFlyby>A_MaximizeBtnPressedFlyby</PressedFlyby>
+		</MaximizeBox>
+		<TileBox>
+			<Normal>A_TileBtnNormal</Normal>
+			<Pressed>A_TileBtnPressed</Pressed>
+			<Flyby>A_TileBtnFlyby</Flyby>
+			<Disabled>A_TileBtnDisabled</Disabled>
+			<PressedFlyby>A_TileBtnPressedFlyby</PressedFlyby>
+		</TileBox>
+		<Border>
+			<TopLeft>A_RoundedFrameWithTitleTopLeft</TopLeft>
+			<Top>A_RoundedFrameWithTitleTop</Top>
+			<TopRight>A_RoundedFrameWithTitleTopRight</TopRight>
+			<RightTop>C_My_Container_ClearBorder</RightTop>
+			<Right>C_My_Container_NoClickBorder</Right>
+			<RightBottom>C_My_Container_NoClickBorder</RightBottom>
+		</Border>
+		<Titlebar>
+			<Right>A_RoundedFrameTitleMiddle</Right>
+			<Left>A_RoundedFrameTitleMiddle</Left>
+			<Middle>A_RoundedFrameTitleMiddle</Middle>
+		</Titlebar>
+	</WindowDrawTemplate>
+
+	<Button item="ContainerCombine_Icon">
+		<ScreenID>ContainerCombine_Icon</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>0</X>
+			<Y>0</Y>
+		</Location>
+		<Size>
+			<CX>40</CX>
+			<CY>40</CY>
+		</Size>
+		<TextColor>
+			<R>255</R>
+			<G>255</G>
+			<B>255</B>
+		</TextColor>
+		<!--<Template>BDT_DragItem</Template>-->
+		<Template>BDT_Normal</Template>
+		<Style_TransparentControl>true</Style_TransparentControl>
+		<DecalOffset>
+			<X>0</X>
+			<Y>0</Y>
+		</DecalOffset>
+		<DecalSize>
+			<CX>40</CX>
+			<CY>40</CY>
+		</DecalSize>
+	</Button>
+	<InvSlot item="Container_Slot">
+		<ScreenID>Container_Slot</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Size>
+			<CX>40</CX>
+			<CY>40</CY>
+		</Size>
+		<Background>A_RecessedBox</Background>
+		<EQType>-1</EQType>
+	</InvSlot>
+	<TileLayoutBox item="ContainerStandard_Items">
+		<ScreenID>ContainerStandard_Items</ScreenID>
+		<DrawTemplate>WDT_RoundedNoTitle</DrawTemplate>
+		<RelativePosition>true</RelativePosition>
+		<AutoStretchHorizontal>true</AutoStretchHorizontal>
+		<RightAnchorToLeft>false</RightAnchorToLeft>
+		<Style_Transparent>true</Style_Transparent>
+		<Spacing>0</Spacing>
+		<SecondarySpacing>0</SecondarySpacing>
+		<HorizontalFirst>true</HorizontalFirst>
+		<AnchorToTop>true</AnchorToTop>
+		<AnchorToLeft>true</AnchorToLeft>
+		<FirstPieceTemplate>false</FirstPieceTemplate>
+		<SnapToChildren>true</SnapToChildren>
+	</TileLayoutBox>
+	<TileLayoutBox item="ContainerStandardWithDone_Items">
+		<ScreenID>ContainerStandardWithDone_Items</ScreenID>
+		<DrawTemplate>WDT_RoundedNoTitle</DrawTemplate>
+		<RelativePosition>true</RelativePosition>
+		<AutoStretchHorizontal>true</AutoStretchHorizontal>
+		<RightAnchorToLeft>false</RightAnchorToLeft>
+		<Style_Transparent>true</Style_Transparent>
+		<Spacing>0</Spacing>
+		<SecondarySpacing>0</SecondarySpacing>
+		<HorizontalFirst>true</HorizontalFirst>
+		<AnchorToTop>true</AnchorToTop>
+		<AnchorToLeft>true</AnchorToLeft>
+		<FirstPieceTemplate>false</FirstPieceTemplate>
+		<SnapToChildren>true</SnapToChildren>
+	</TileLayoutBox>
+	<TileLayoutBox item="ContainerCombine_Items">
+		<ScreenID>ContainerCombine_Items</ScreenID>
+		<DrawTemplate>WDT_RoundedNoTitle</DrawTemplate>
+		<RelativePosition>true</RelativePosition>
+		<AutoStretchHorizontal>true</AutoStretchHorizontal>
+		<BottomAnchorToTop>false</BottomAnchorToTop>
+		<RightAnchorToLeft>false</RightAnchorToLeft>
+		<Style_Transparent>true</Style_Transparent>
+		<Spacing>0</Spacing>
+		<SecondarySpacing>0</SecondarySpacing>
+		<HorizontalFirst>true</HorizontalFirst>
+		<AnchorToTop>true</AnchorToTop>
+		<AnchorToLeft>true</AnchorToLeft>
+		<FirstPieceTemplate>false</FirstPieceTemplate>
+		<SnapToChildren>true</SnapToChildren>
+	</TileLayoutBox>
+	<Button item="Container_Combine">
+		<ScreenID>Container_Combine</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>0</X>
+			<Y>0</Y>
+		</Location>
+		<Size>
+			<CX>40</CX>
+			<CY>60</CY>
+		</Size>
+		<Text></Text>
+		<TextColor>
+			<R>255</R>
+			<G>255</G>
+			<B>255</B>
+		</TextColor>
+		<!--<Template>BDT_SmallNormal</Template>-->
+		<UseInLayoutVertical>false</UseInLayoutVertical>
+	</Button>
+	<Button item="StandardDoneButton">
+		<ScreenID>StandardDoneButton</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<AutoStretchHorizontal>true</AutoStretchHorizontal>
+		<RightAnchorToLeft>false</RightAnchorToLeft>
+		<UseInLayoutHorizontal>false</UseInLayoutHorizontal>
+		<Size>
+			<CX>80</CX>
+			<CY>20</CY>
+		</Size>
+		<Text>Done</Text>
+		<TextColor>
+			<R>255</R>
+			<G>255</G>
+			<B>255</B>
+		</TextColor>
+		<Template>BDT_Normal</Template>
+	</Button>
+	<Button item="CombineDoneButton">
+		<ScreenID>CombineDoneButton</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<AutoStretchHorizontal>true</AutoStretchHorizontal>
+		<RightAnchorToLeft>false</RightAnchorToLeft>
+		<UseInLayoutHorizontal>false</UseInLayoutHorizontal>
+		<!-- <Location><X>0</X><Y>40</Y></Location> -->
+		<Size>
+			<CX>80</CX>
+			<CY>20</CY>
+		</Size>
+		<UseInLayoutVertical>true</UseInLayoutVertical>
+		<Style_Transparent>false</Style_Transparent>
+		<Text>Done</Text>
+		<TextColor>
+			<R>255</R>
+			<G>255</G>
+			<B>255</B>
+		</TextColor>
+		<Template>BDT_Normal</Template>
+	</Button>
+	<STMLbox item="Container_StandardSize">
+		<ScreenID>StandardSize</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Size>
+			<CX>115</CX>
+			<CY>240</CY>
+		</Size>
+		<UseInLayoutVertical>false</UseInLayoutVertical>
+		<UseInLayoutHorizontal>false</UseInLayoutHorizontal>
+		<Style_Transparent>true</Style_Transparent>
+		<Style_Tooltip>false</Style_Tooltip>
+	</STMLbox>
+	<STMLbox item="Container_CombineSize">
+		<ScreenID>CombineSize</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Size>
+			<CX>115</CX>
+			<CY>240</CY>
+		</Size>
+		<UseInLayoutVertical>false</UseInLayoutVertical>
+		<UseInLayoutHorizontal>false</UseInLayoutHorizontal>
+		<Style_Transparent>true</Style_Transparent>
+		<Style_Tooltip>false</Style_Tooltip>
+	</STMLbox>
+	<LayoutVertical item="Container_LayoutV">
+		<ResizeVertical>true</ResizeVertical>
+		<ResizeHorizontal>true</ResizeHorizontal>
+	</LayoutVertical>
+	<Screen item="ContainerWindow">
+		<Layout>Container_LayoutV</Layout>
+		<RelativePosition>false</RelativePosition>
+		<Location>
+			<X>350</X>
+			<Y>100</Y>
+		</Location>
+		<Size>
+			<CX>115</CX>
+			<CY>240</CY>
+		</Size>
+		<!--<Font>1</Font>-->
+		<Style_SizableBorderTop>false</Style_SizableBorderTop>
+		<Style_SizableBorderTopLeft>false</Style_SizableBorderTopLeft>
+		<Text>Container</Text>
+		<Style_VScroll>false</Style_VScroll>
+		<Style_HScroll>false</Style_HScroll>
+		<Style_Transparent>false</Style_Transparent>
+		<TooltipReference>Container</TooltipReference>
+		<DrawTemplate>WDT_C_RoundedContainer</DrawTemplate>
+		<Style_Titlebar>true</Style_Titlebar>
+		<Style_Closebox>true</Style_Closebox>
+		<Style_Minimizebox>false</Style_Minimizebox>
+		<Style_Border>true</Style_Border>
+		<Style_Sizable>true</Style_Sizable>
+		<Pieces>Container_Combine</Pieces>
+		<!-- StandardDoneButton here to have it at the top -->
+		<!-- CombineDoneButton here to have it at the top -->
+		<Pieces>ContainerCombine_Icon</Pieces>
+		<!-- CombineDoneButton here to have it in the middle -->
+		<Pieces>Container_Slot</Pieces>
+		<Pieces>TileLayoutBox:ContainerStandard_Items</Pieces>
+		<Pieces>TileLayoutBox:ContainerStandardWithDone_Items</Pieces>
+		<Pieces>TileLayoutBox:ContainerCombine_Items</Pieces>
+		<Pieces>Container_StandardSize</Pieces>
+		<Pieces>Container_CombineSize</Pieces>
+		<!-- StandardDoneButton here to have it at the bottom -->
+		<Pieces>StandardDoneButton</Pieces>
+		<!-- CombineDoneButton here to have it at the bottom -->
+		<Pieces>CombineDoneButton</Pieces>
+
+	</Screen>
+</XML>
