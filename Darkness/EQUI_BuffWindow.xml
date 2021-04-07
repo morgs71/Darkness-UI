@@ -7,7 +7,7 @@
 		<RelativePosition>true</RelativePosition>
 		<Size>
 			<CX>180</CX>
-			<CY>20</CY>
+			<CY>18</CY>
 		</Size>
 		<ButtonDrawTemplate>
 			<Normal>BlueIconBackground</Normal>
@@ -18,8 +18,8 @@
 			<Y>0</Y>
 		</DecalOffset>
 		<DecalSize>
-			<CX>20</CX>
-			<CY>20</CY>
+			<CX>18</CX>
+			<CY>18</CY>
 		</DecalSize>
 	</Button>
 	<Label item="BW_Buff0">
@@ -69,8 +69,8 @@
 			<Y>0</Y>
 		</DecalOffset>
 		<DecalSize>
-			<CX>20</CX>
-			<CY>20</CY>
+			<CX>18</CX>
+			<CY>18</CY>
 		</DecalSize>
 	</Button>
 	<Label item="BW_Buff1">
@@ -111,8 +111,8 @@
 			<Y>0</Y>
 		</DecalOffset>
 		<DecalSize>
-			<CX>20</CX>
-			<CY>20</CY>
+			<CX>18</CX>
+			<CY>18</CY>
 		</DecalSize>
 	</Button>
 	<Label item="BW_Buff2">
@@ -153,8 +153,8 @@
 			<Y>0</Y>
 		</DecalOffset>
 		<DecalSize>
-			<CX>20</CX>
-			<CY>20</CY>
+			<CX>18</CX>
+			<CY>18</CY>
 		</DecalSize>
 	</Button>
 	<Label item="BW_Buff3">
@@ -195,8 +195,8 @@
 			<Y>0</Y>
 		</DecalOffset>
 		<DecalSize>
-			<CX>20</CX>
-			<CY>20</CY>
+			<CX>18</CX>
+			<CY>18</CY>
 		</DecalSize>
 	</Button>
 	<Label item="BW_Buff4">
@@ -237,8 +237,8 @@
 			<Y>0</Y>
 		</DecalOffset>
 		<DecalSize>
-			<CX>20</CX>
-			<CY>20</CY>
+			<CX>18</CX>
+			<CY>18</CY>
 		</DecalSize>
 	</Button>
 	<Label item="BW_Buff5">
@@ -279,8 +279,8 @@
 			<Y>0</Y>
 		</DecalOffset>
 		<DecalSize>
-			<CX>20</CX>
-			<CY>20</CY>
+			<CX>18</CX>
+			<CY>18</CY>
 		</DecalSize>
 	</Button>
 	<Label item="BW_Buff6">
@@ -321,8 +321,8 @@
 			<Y>0</Y>
 		</DecalOffset>
 		<DecalSize>
-			<CX>20</CX>
-			<CY>20</CY>
+			<CX>18</CX>
+			<CY>18</CY>
 		</DecalSize>
 	</Button>
 	<Label item="BW_Buff7">
@@ -364,8 +364,8 @@
 			<Y>0</Y>
 		</DecalOffset>
 		<DecalSize>
-			<CX>20</CX>
-			<CY>20</CY>
+			<CX>18</CX>
+			<CY>18</CY>
 		</DecalSize>
 	</Button>
 	<Label item="BW_Buff8">
@@ -406,8 +406,8 @@
 			<Y>0</Y>
 		</DecalOffset>
 		<DecalSize>
-			<CX>20</CX>
-			<CY>20</CY>
+			<CX>18</CX>
+			<CY>18</CY>
 		</DecalSize>
 	</Button>
 	<Label item="BW_Buff9">
@@ -448,8 +448,8 @@
 			<Y>0</Y>
 		</DecalOffset>
 		<DecalSize>
-			<CX>20</CX>
-			<CY>20</CY>
+			<CX>18</CX>
+			<CY>18</CY>
 		</DecalSize>
 	</Button>
 	<Label item="BW_Buff10">
@@ -490,8 +490,8 @@
 			<Y>0</Y>
 		</DecalOffset>
 		<DecalSize>
-			<CX>20</CX>
-			<CY>20</CY>
+			<CX>18</CX>
+			<CY>18</CY>
 		</DecalSize>
 	</Button>
 	<Label item="BW_Buff11">
@@ -532,8 +532,8 @@
 			<Y>0</Y>
 		</DecalOffset>
 		<DecalSize>
-			<CX>20</CX>
-			<CY>20</CY>
+			<CX>18</CX>
+			<CY>18</CY>
 		</DecalSize>
 	</Button>
 	<Label item="BW_Buff12">
@@ -574,8 +574,8 @@
 			<Y>0</Y>
 		</DecalOffset>
 		<DecalSize>
-			<CX>20</CX>
-			<CY>20</CY>
+			<CX>18</CX>
+			<CY>18</CY>
 		</DecalSize>
 	</Button>
 	<Label item="BW_Buff13">
@@ -616,8 +616,8 @@
 			<Y>0</Y>
 		</DecalOffset>
 		<DecalSize>
-			<CX>20</CX>
-			<CY>20</CY>
+			<CX>18</CX>
+			<CY>18</CY>
 		</DecalSize>
 	</Button>
 	<Label item="BW_Buff14">
@@ -658,8 +658,8 @@
 			<Y>0</Y>
 		</DecalOffset>
 		<DecalSize>
-			<CX>20</CX>
-			<CY>20</CY>
+			<CX>18</CX>
+			<CY>18</CY>
 		</DecalSize>
 	</Button>
 	<Label item="BW_Buff15">
@@ -700,8 +700,8 @@
 			<Y>0</Y>
 		</DecalOffset>
 		<DecalSize>
-			<CX>20</CX>
-			<CY>20</CY>
+			<CX>18</CX>
+			<CY>18</CY>
 		</DecalSize>
 	</Button>
 	<Label item="BW_Buff16">
@@ -742,8 +742,8 @@
 			<Y>0</Y>
 		</DecalOffset>
 		<DecalSize>
-			<CX>20</CX>
-			<CY>20</CY>
+			<CX>18</CX>
+			<CY>18</CY>
 		</DecalSize>
 	</Button>
 	<Label item="BW_Buff17">
@@ -784,8 +784,8 @@
 			<Y>0</Y>
 		</DecalOffset>
 		<DecalSize>
-			<CX>20</CX>
-			<CY>20</CY>
+			<CX>18</CX>
+			<CY>18</CY>
 		</DecalSize>
 	</Button>
 	<Label item="BW_Buff18">
@@ -826,8 +826,8 @@
 			<Y>0</Y>
 		</DecalOffset>
 		<DecalSize>
-			<CX>20</CX>
-			<CY>20</CY>
+			<CX>18</CX>
+			<CY>18</CY>
 		</DecalSize>
 	</Button>
 	<Label item="BW_Buff19">
@@ -868,8 +868,8 @@
 			<Y>0</Y>
 		</DecalOffset>
 		<DecalSize>
-			<CX>20</CX>
-			<CY>20</CY>
+			<CX>18</CX>
+			<CY>18</CY>
 		</DecalSize>
 	</Button>
 	<Label item="BW_Buff20">
@@ -910,8 +910,8 @@
 			<Y>0</Y>
 		</DecalOffset>
 		<DecalSize>
-			<CX>20</CX>
-			<CY>20</CY>
+			<CX>18</CX>
+			<CY>18</CY>
 		</DecalSize>
 	</Button>
 	<Label item="BW_Buff21">
@@ -952,8 +952,8 @@
 			<Y>0</Y>
 		</DecalOffset>
 		<DecalSize>
-			<CX>20</CX>
-			<CY>20</CY>
+			<CX>18</CX>
+			<CY>18</CY>
 		</DecalSize>
 	</Button>
 	<Label item="BW_Buff22">
@@ -994,8 +994,8 @@
 			<Y>0</Y>
 		</DecalOffset>
 		<DecalSize>
-			<CX>20</CX>
-			<CY>20</CY>
+			<CX>18</CX>
+			<CY>18</CY>
 		</DecalSize>
 	</Button>
 	<Label item="BW_Buff23">
@@ -1036,8 +1036,8 @@
 			<Y>0</Y>
 		</DecalOffset>
 		<DecalSize>
-			<CX>20</CX>
-			<CY>20</CY>
+			<CX>18</CX>
+			<CY>18</CY>
 		</DecalSize>
 	</Button>
 	<Label item="BW_Buff24">
@@ -1065,6 +1065,134 @@
 		</TextColor>
 		<NoWrap>true</NoWrap>
 	</Label>
+	
+	<Button item="BW_Buff25_Button">
+		<ScreenID>Buff25</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<ButtonDrawTemplate>
+			<Normal>BlueIconBackground</Normal>
+			<NormalDecal>BuffIcons</NormalDecal>
+		</ButtonDrawTemplate>
+		<DecalOffset>
+			<X>15</X>
+			<Y>0</Y>
+		</DecalOffset>
+		<DecalSize>
+			<CX>18</CX>
+			<CY>18</CY>
+		</DecalSize>
+	</Button>
+	<Label item="BW_Buff25">
+		<ScreenID>Buff25Label</ScreenID>
+		<EQType>525</EQType>
+		<Font>2</Font>
+		<RelativePosition>true</RelativePosition>
+		<Text></Text>
+		<TextColor>
+			<R>255</R>
+			<G>255</G>
+			<B>255</B>
+		</TextColor>
+		<NoWrap>true</NoWrap>
+	</Label>
+	<Label item="BW_Buff25Number">
+		<ScreenID>Buff25No</ScreenID>
+		<Font>2</Font>
+		<RelativePosition>true</RelativePosition>
+		<Text>26.</Text>
+		<TextColor>
+			<R>0</R>
+			<G>255</G>
+			<B>255</B>
+		</TextColor>
+		<NoWrap>true</NoWrap>
+	</Label>
+	
+	<Button item="BW_Buff26_Button">
+		<ScreenID>Buff26</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<ButtonDrawTemplate>
+			<Normal>BlueIconBackground</Normal>
+			<NormalDecal>BuffIcons</NormalDecal>
+		</ButtonDrawTemplate>
+		<DecalOffset>
+			<X>15</X>
+			<Y>0</Y>
+		</DecalOffset>
+		<DecalSize>
+			<CX>18</CX>
+			<CY>18</CY>
+		</DecalSize>
+	</Button>
+	<Label item="BW_Buff26">
+		<ScreenID>Buff26Label</ScreenID>
+		<EQType>526</EQType>
+		<Font>2</Font>
+		<RelativePosition>true</RelativePosition>
+		<Text></Text>
+		<TextColor>
+			<R>255</R>
+			<G>255</G>
+			<B>255</B>
+		</TextColor>
+		<NoWrap>true</NoWrap>
+	</Label>
+	<Label item="BW_Buff26Number">
+		<ScreenID>Buff26No</ScreenID>
+		<Font>2</Font>
+		<RelativePosition>true</RelativePosition>
+		<Text>27.</Text>
+		<TextColor>
+			<R>0</R>
+			<G>255</G>
+			<B>255</B>
+		</TextColor>
+		<NoWrap>true</NoWrap>
+	</Label>
+	
+	<Button item="BW_Buff27_Button">
+		<ScreenID>Buff27</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<ButtonDrawTemplate>
+			<Normal>BlueIconBackground</Normal>
+			<NormalDecal>BuffIcons</NormalDecal>
+		</ButtonDrawTemplate>
+		<DecalOffset>
+			<X>15</X>
+			<Y>0</Y>
+		</DecalOffset>
+		<DecalSize>
+			<CX>18</CX>
+			<CY>18</CY>
+		</DecalSize>
+	</Button>
+	<Label item="BW_Buff27">
+		<ScreenID>Buff27Label</ScreenID>
+		<EQType>527</EQType>
+		<Font>2</Font>
+		<RelativePosition>true</RelativePosition>
+		<Text></Text>
+		<TextColor>
+			<R>255</R>
+			<G>255</G>
+			<B>255</B>
+		</TextColor>
+		<NoWrap>true</NoWrap>
+	</Label>
+	<Label item="BW_Buff27Number">
+		<ScreenID>Buff27No</ScreenID>
+		<Font>2</Font>
+		<RelativePosition>true</RelativePosition>
+		<Text>28.</Text>
+		<TextColor>
+			<R>0</R>
+			<G>255</G>
+			<B>255</B>
+		</TextColor>
+		<NoWrap>true</NoWrap>
+	</Label>
+	
+
 
 
 
@@ -1107,6 +1235,9 @@
 		<Pieces>BW_Buff22_Button</Pieces>
 		<Pieces>BW_Buff23_Button</Pieces>
 		<Pieces>BW_Buff24_Button</Pieces>
+		<Pieces>BW_Buff25_Button</Pieces>
+		<Pieces>BW_Buff26_Button</Pieces>
+		<Pieces>BW_Buff27_Button</Pieces>
 	</TileLayoutBox>
 	
 	<TileLayoutBox item="BW_Labels">
@@ -1116,7 +1247,7 @@
 		<RightAnchorToLeft>false</RightAnchorToLeft>
 		<Style_Transparent>true</Style_Transparent>
 		<Style_Tooltip>false</Style_Tooltip>
-		<Spacing>7</Spacing>
+		<Spacing>5</Spacing>
 		<SecondarySpacing>0</SecondarySpacing>
 		<HorizontalFirst>false</HorizontalFirst>
 		<AnchorToTop>true</AnchorToTop>
@@ -1149,6 +1280,9 @@
 		<Pieces>BW_Buff22</Pieces>
 		<Pieces>BW_Buff23</Pieces>
 		<Pieces>BW_Buff24</Pieces>
+		<Pieces>BW_Buff25</Pieces>
+		<Pieces>BW_Buff26</Pieces>
+		<Pieces>BW_Buff27</Pieces>
 	</TileLayoutBox>
 	
 	<TileLayoutBox item="BW_Numbers">
@@ -1158,7 +1292,7 @@
 		<RightAnchorToLeft>false</RightAnchorToLeft>
 		<Style_Transparent>true</Style_Transparent>
 		<Style_Tooltip>false</Style_Tooltip>
-		<Spacing>7</Spacing>
+		<Spacing>5</Spacing>
 		<SecondarySpacing>0</SecondarySpacing>
 		<HorizontalFirst>false</HorizontalFirst>
 		<AnchorToTop>true</AnchorToTop>
@@ -1190,6 +1324,9 @@
 		<Pieces>BW_Buff22Number</Pieces>
 		<Pieces>BW_Buff23Number</Pieces>
 		<Pieces>BW_Buff24Number</Pieces>
+		<Pieces>BW_Buff25Number</Pieces>
+		<Pieces>BW_Buff26Number</Pieces>
+		<Pieces>BW_Buff27Number</Pieces>
 	</TileLayoutBox>
 	
 	<Screen item="BuffWindow">
@@ -1201,7 +1338,7 @@
 		</Location>
 		<Size>
 			<CX>191</CX>
-			<CY>542</CY>
+			<CY>545</CY>
 		</Size>
 		<Style_Transparent>true</Style_Transparent>
 		<DrawTemplate>WDT_RoundedNoTitle</DrawTemplate>
