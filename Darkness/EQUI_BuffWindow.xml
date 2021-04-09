@@ -7,7 +7,7 @@
 		<RelativePosition>true</RelativePosition>
 		<Size>
 			<CX>180</CX>
-			<CY>18</CY>
+			<CY>17</CY>
 		</Size>
 		<ButtonDrawTemplate>
 			<Normal>BlueIconBackground</Normal>
@@ -18,8 +18,8 @@
 			<Y>0</Y>
 		</DecalOffset>
 		<DecalSize>
-			<CX>18</CX>
-			<CY>18</CY>
+			<CX>17</CX>
+			<CY>17</CY>
 		</DecalSize>
 	</Button>
 	<Label item="BW_Buff0">
@@ -69,8 +69,8 @@
 			<Y>0</Y>
 		</DecalOffset>
 		<DecalSize>
-			<CX>18</CX>
-			<CY>18</CY>
+			<CX>17</CX>
+			<CY>17</CY>
 		</DecalSize>
 	</Button>
 	<Label item="BW_Buff1">
@@ -111,8 +111,8 @@
 			<Y>0</Y>
 		</DecalOffset>
 		<DecalSize>
-			<CX>18</CX>
-			<CY>18</CY>
+			<CX>17</CX>
+			<CY>17</CY>
 		</DecalSize>
 	</Button>
 	<Label item="BW_Buff2">
@@ -153,8 +153,8 @@
 			<Y>0</Y>
 		</DecalOffset>
 		<DecalSize>
-			<CX>18</CX>
-			<CY>18</CY>
+			<CX>17</CX>
+			<CY>17</CY>
 		</DecalSize>
 	</Button>
 	<Label item="BW_Buff3">
@@ -195,8 +195,8 @@
 			<Y>0</Y>
 		</DecalOffset>
 		<DecalSize>
-			<CX>18</CX>
-			<CY>18</CY>
+			<CX>17</CX>
+			<CY>17</CY>
 		</DecalSize>
 	</Button>
 	<Label item="BW_Buff4">
@@ -237,8 +237,8 @@
 			<Y>0</Y>
 		</DecalOffset>
 		<DecalSize>
-			<CX>18</CX>
-			<CY>18</CY>
+			<CX>17</CX>
+			<CY>17</CY>
 		</DecalSize>
 	</Button>
 	<Label item="BW_Buff5">
@@ -279,8 +279,8 @@
 			<Y>0</Y>
 		</DecalOffset>
 		<DecalSize>
-			<CX>18</CX>
-			<CY>18</CY>
+			<CX>17</CX>
+			<CY>17</CY>
 		</DecalSize>
 	</Button>
 	<Label item="BW_Buff6">
@@ -321,8 +321,8 @@
 			<Y>0</Y>
 		</DecalOffset>
 		<DecalSize>
-			<CX>18</CX>
-			<CY>18</CY>
+			<CX>17</CX>
+			<CY>17</CY>
 		</DecalSize>
 	</Button>
 	<Label item="BW_Buff7">
@@ -364,8 +364,8 @@
 			<Y>0</Y>
 		</DecalOffset>
 		<DecalSize>
-			<CX>18</CX>
-			<CY>18</CY>
+			<CX>17</CX>
+			<CY>17</CY>
 		</DecalSize>
 	</Button>
 	<Label item="BW_Buff8">
@@ -406,8 +406,8 @@
 			<Y>0</Y>
 		</DecalOffset>
 		<DecalSize>
-			<CX>18</CX>
-			<CY>18</CY>
+			<CX>17</CX>
+			<CY>17</CY>
 		</DecalSize>
 	</Button>
 	<Label item="BW_Buff9">
@@ -448,8 +448,8 @@
 			<Y>0</Y>
 		</DecalOffset>
 		<DecalSize>
-			<CX>18</CX>
-			<CY>18</CY>
+			<CX>17</CX>
+			<CY>17</CY>
 		</DecalSize>
 	</Button>
 	<Label item="BW_Buff10">
@@ -490,8 +490,8 @@
 			<Y>0</Y>
 		</DecalOffset>
 		<DecalSize>
-			<CX>18</CX>
-			<CY>18</CY>
+			<CX>17</CX>
+			<CY>17</CY>
 		</DecalSize>
 	</Button>
 	<Label item="BW_Buff11">
@@ -532,8 +532,8 @@
 			<Y>0</Y>
 		</DecalOffset>
 		<DecalSize>
-			<CX>18</CX>
-			<CY>18</CY>
+			<CX>17</CX>
+			<CY>17</CY>
 		</DecalSize>
 	</Button>
 	<Label item="BW_Buff12">
@@ -574,8 +574,8 @@
 			<Y>0</Y>
 		</DecalOffset>
 		<DecalSize>
-			<CX>18</CX>
-			<CY>18</CY>
+			<CX>17</CX>
+			<CY>17</CY>
 		</DecalSize>
 	</Button>
 	<Label item="BW_Buff13">
@@ -616,8 +616,8 @@
 			<Y>0</Y>
 		</DecalOffset>
 		<DecalSize>
-			<CX>18</CX>
-			<CY>18</CY>
+			<CX>17</CX>
+			<CY>17</CY>
 		</DecalSize>
 	</Button>
 	<Label item="BW_Buff14">
@@ -658,8 +658,8 @@
 			<Y>0</Y>
 		</DecalOffset>
 		<DecalSize>
-			<CX>18</CX>
-			<CY>18</CY>
+			<CX>17</CX>
+			<CY>17</CY>
 		</DecalSize>
 	</Button>
 	<Label item="BW_Buff15">
@@ -700,8 +700,8 @@
 			<Y>0</Y>
 		</DecalOffset>
 		<DecalSize>
-			<CX>18</CX>
-			<CY>18</CY>
+			<CX>17</CX>
+			<CY>17</CY>
 		</DecalSize>
 	</Button>
 	<Label item="BW_Buff16">
@@ -742,8 +742,8 @@
 			<Y>0</Y>
 		</DecalOffset>
 		<DecalSize>
-			<CX>18</CX>
-			<CY>18</CY>
+			<CX>17</CX>
+			<CY>17</CY>
 		</DecalSize>
 	</Button>
 	<Label item="BW_Buff17">
@@ -784,8 +784,8 @@
 			<Y>0</Y>
 		</DecalOffset>
 		<DecalSize>
-			<CX>18</CX>
-			<CY>18</CY>
+			<CX>17</CX>
+			<CY>17</CY>
 		</DecalSize>
 	</Button>
 	<Label item="BW_Buff18">
@@ -826,8 +826,8 @@
 			<Y>0</Y>
 		</DecalOffset>
 		<DecalSize>
-			<CX>18</CX>
-			<CY>18</CY>
+			<CX>17</CX>
+			<CY>17</CY>
 		</DecalSize>
 	</Button>
 	<Label item="BW_Buff19">
@@ -868,8 +868,8 @@
 			<Y>0</Y>
 		</DecalOffset>
 		<DecalSize>
-			<CX>18</CX>
-			<CY>18</CY>
+			<CX>17</CX>
+			<CY>17</CY>
 		</DecalSize>
 	</Button>
 	<Label item="BW_Buff20">
@@ -910,8 +910,8 @@
 			<Y>0</Y>
 		</DecalOffset>
 		<DecalSize>
-			<CX>18</CX>
-			<CY>18</CY>
+			<CX>17</CX>
+			<CY>17</CY>
 		</DecalSize>
 	</Button>
 	<Label item="BW_Buff21">
@@ -952,8 +952,8 @@
 			<Y>0</Y>
 		</DecalOffset>
 		<DecalSize>
-			<CX>18</CX>
-			<CY>18</CY>
+			<CX>17</CX>
+			<CY>17</CY>
 		</DecalSize>
 	</Button>
 	<Label item="BW_Buff22">
@@ -994,8 +994,8 @@
 			<Y>0</Y>
 		</DecalOffset>
 		<DecalSize>
-			<CX>18</CX>
-			<CY>18</CY>
+			<CX>17</CX>
+			<CY>17</CY>
 		</DecalSize>
 	</Button>
 	<Label item="BW_Buff23">
@@ -1036,8 +1036,8 @@
 			<Y>0</Y>
 		</DecalOffset>
 		<DecalSize>
-			<CX>18</CX>
-			<CY>18</CY>
+			<CX>17</CX>
+			<CY>17</CY>
 		</DecalSize>
 	</Button>
 	<Label item="BW_Buff24">
@@ -1078,8 +1078,8 @@
 			<Y>0</Y>
 		</DecalOffset>
 		<DecalSize>
-			<CX>18</CX>
-			<CY>18</CY>
+			<CX>17</CX>
+			<CY>17</CY>
 		</DecalSize>
 	</Button>
 	<Label item="BW_Buff25">
@@ -1120,8 +1120,8 @@
 			<Y>0</Y>
 		</DecalOffset>
 		<DecalSize>
-			<CX>18</CX>
-			<CY>18</CY>
+			<CX>17</CX>
+			<CY>17</CY>
 		</DecalSize>
 	</Button>
 	<Label item="BW_Buff26">
@@ -1162,8 +1162,8 @@
 			<Y>0</Y>
 		</DecalOffset>
 		<DecalSize>
-			<CX>18</CX>
-			<CY>18</CY>
+			<CX>17</CX>
+			<CY>17</CY>
 		</DecalSize>
 	</Button>
 	<Label item="BW_Buff27">
@@ -1247,7 +1247,7 @@
 		<RightAnchorToLeft>false</RightAnchorToLeft>
 		<Style_Transparent>true</Style_Transparent>
 		<Style_Tooltip>false</Style_Tooltip>
-		<Spacing>5</Spacing>
+		<Spacing>4</Spacing>
 		<SecondarySpacing>0</SecondarySpacing>
 		<HorizontalFirst>false</HorizontalFirst>
 		<AnchorToTop>true</AnchorToTop>
@@ -1292,7 +1292,7 @@
 		<RightAnchorToLeft>false</RightAnchorToLeft>
 		<Style_Transparent>true</Style_Transparent>
 		<Style_Tooltip>false</Style_Tooltip>
-		<Spacing>5</Spacing>
+		<Spacing>4</Spacing>
 		<SecondarySpacing>0</SecondarySpacing>
 		<HorizontalFirst>false</HorizontalFirst>
 		<AnchorToTop>true</AnchorToTop>
@@ -1338,7 +1338,7 @@
 		</Location>
 		<Size>
 			<CX>191</CX>
-			<CY>545</CY>
+			<CY>514</CY>
 		</Size>
 		<Style_Transparent>true</Style_Transparent>
 		<DrawTemplate>WDT_RoundedNoTitle</DrawTemplate>

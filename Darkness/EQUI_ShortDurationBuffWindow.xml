@@ -7,7 +7,7 @@
 		<RelativePosition>true</RelativePosition>
 		<Size>
 			<CX>180</CX>
-			<CY>20</CY>
+			<CY>18</CY>
 		</Size>
 		<ButtonDrawTemplate>
 			<Normal>BlueIconBackground</Normal>
@@ -18,8 +18,8 @@
 			<Y>0</Y>
 		</DecalOffset>
 		<DecalSize>
-			<CX>20</CX>
-			<CY>20</CY>
+			<CX>18</CX>
+			<CY>18</CY>
 		</DecalSize>
 	</Button>
 	<Label item="SDBW_Buff0">
@@ -69,8 +69,8 @@
 			<Y>0</Y>
 		</DecalOffset>
 		<DecalSize>
-			<CX>20</CX>
-			<CY>20</CY>
+			<CX>18</CX>
+			<CY>18</CY>
 		</DecalSize>
 	</Button>
 	<Label item ="SDBW_Buff1">
@@ -112,8 +112,8 @@
 			<Y>0</Y>
 		</DecalOffset>
 		<DecalSize>
-			<CX>20</CX>
-			<CY>20</CY>
+			<CX>18</CX>
+			<CY>18</CY>
 		</DecalSize>
 	</Button>
 	<Label item="SDBW_Buff2">
@@ -154,8 +154,8 @@
 			<Y>0</Y>
 		</DecalOffset>
 		<DecalSize>
-			<CX>20</CX>
-			<CY>20</CY>
+			<CX>18</CX>
+			<CY>18</CY>
 		</DecalSize>
 	</Button>
 	<Label item="SDBW_Buff3">
@@ -196,8 +196,8 @@
 			<Y>0</Y>
 		</DecalOffset>
 		<DecalSize>
-			<CX>20</CX>
-			<CY>20</CY>
+			<CX>18</CX>
+			<CY>18</CY>
 		</DecalSize>
 	</Button>
 	<Label item="SDBW_Buff4">
@@ -238,8 +238,8 @@
 			<Y>0</Y>
 		</DecalOffset>
 		<DecalSize>
-			<CX>20</CX>
-			<CY>20</CY>
+			<CX>18</CX>
+			<CY>18</CY>
 		</DecalSize>
 	</Button>
 	<Label item="SDBW_Buff5">
@@ -280,8 +280,8 @@
 			<Y>0</Y>
 		</DecalOffset>
 		<DecalSize>
-			<CX>20</CX>
-			<CY>20</CY>
+			<CX>18</CX>
+			<CY>18</CY>
 		</DecalSize>
 	</Button>
 	<Label item="SDBW_Buff6">
@@ -322,8 +322,8 @@
 			<Y>0</Y>
 		</DecalOffset>
 		<DecalSize>
-			<CX>20</CX>
-			<CY>20</CY>
+			<CX>18</CX>
+			<CY>18</CY>
 		</DecalSize>
 	</Button>
 	<Label item="SDBW_Buff7">
@@ -364,8 +364,8 @@
 			<Y>0</Y>
 		</DecalOffset>
 		<DecalSize>
-			<CX>20</CX>
-			<CY>20</CY>
+			<CX>18</CX>
+			<CY>18</CY>
 		</DecalSize>
 	</Button>
 	<Label item="SDBW_Buff8">
@@ -406,8 +406,8 @@
 			<Y>0</Y>
 		</DecalOffset>
 		<DecalSize>
-			<CX>20</CX>
-			<CY>20</CY>
+			<CX>18</CX>
+			<CY>18</CY>
 		</DecalSize>
 	</Button>
 	<Label item="SDBW_Buff9">
@@ -448,8 +448,8 @@
 			<Y>0</Y>
 		</DecalOffset>
 		<DecalSize>
-			<CX>20</CX>
-			<CY>20</CY>
+			<CX>18</CX>
+			<CY>18</CY>
 		</DecalSize>
 	</Button>
 	<Label item="SDBW_Buff10">
@@ -490,8 +490,8 @@
 			<Y>0</Y>
 		</DecalOffset>
 		<DecalSize>
-			<CX>20</CX>
-			<CY>20</CY>
+			<CX>18</CX>
+			<CY>18</CY>
 		</DecalSize>
 	</Button>
 	<Label item="SDBW_Buff11">
@@ -519,6 +519,92 @@
 		</TextColor>
 		<NoWrap>true</NoWrap>
 	</Label>
+	
+		<Button item="SDBW_Buff12_Button">
+		<ScreenID>Buff12</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<ButtonDrawTemplate>
+			<Normal>BlueIconBackground</Normal>
+			<NormalDecal>BuffIcons</NormalDecal>
+		</ButtonDrawTemplate>
+		<DecalOffset>
+			<X>22</X>
+			<Y>0</Y>
+		</DecalOffset>
+		<DecalSize>
+			<CX>18</CX>
+			<CY>18</CY>
+		</DecalSize>
+	</Button>
+	<Label item="SDBW_Buff12">
+		<ScreenID>SDBuff12Label</ScreenID>
+		<EQType>612</EQType>
+		<Font>2</Font>
+		<RelativePosition>true</RelativePosition>
+		<Text></Text>
+		<TextColor>
+			<R>255</R>
+			<G>255</G>
+			<B>255</B>
+		</TextColor>
+		<NoWrap>true</NoWrap>
+	</Label>
+	<Label item="SDBW_Buff12Number">
+		<ScreenID>SDBuff12No</ScreenID>
+		<Font>2</Font>
+		<RelativePosition>true</RelativePosition>
+		<Text>S13.</Text>
+		<TextColor>
+			<R>0</R>
+			<G>255</G>
+			<B>255</B>
+		</TextColor>
+		<NoWrap>true</NoWrap>
+	</Label>
+	
+		<Button item="SDBW_Buff13_Button">
+		<ScreenID>Buff13</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<ButtonDrawTemplate>
+			<Normal>BlueIconBackground</Normal>
+			<NormalDecal>BuffIcons</NormalDecal>
+		</ButtonDrawTemplate>
+		<DecalOffset>
+			<X>22</X>
+			<Y>0</Y>
+		</DecalOffset>
+		<DecalSize>
+			<CX>18</CX>
+			<CY>18</CY>
+		</DecalSize>
+	</Button>
+	<Label item="SDBW_Buff13">
+		<ScreenID>SDBuff13Label</ScreenID>
+		<EQType>613</EQType>
+		<Font>2</Font>
+		<RelativePosition>true</RelativePosition>
+		<Text></Text>
+		<TextColor>
+			<R>255</R>
+			<G>255</G>
+			<B>255</B>
+		</TextColor>
+		<NoWrap>true</NoWrap>
+	</Label>
+	<Label item="SDBW_Buff13Number">
+		<ScreenID>SDBuff13No</ScreenID>
+		<Font>2</Font>
+		<RelativePosition>true</RelativePosition>
+		<Text>S14.</Text>
+		<TextColor>
+			<R>0</R>
+			<G>255</G>
+			<B>255</B>
+		</TextColor>
+		<NoWrap>true</NoWrap>
+	</Label>
+	
+	
 
 	
 
@@ -547,6 +633,9 @@
 		<Pieces>SDBW_Buff8_Button</Pieces>
 		<Pieces>SDBW_Buff9_Button</Pieces>
 		<Pieces>SDBW_Buff10_Button</Pieces>
+		<Pieces>SDBW_Buff11_Button</Pieces>
+		<Pieces>SDBW_Buff12_Button</Pieces>
+		<Pieces>SDBW_Buff13_Button</Pieces>
 	</TileLayoutBox>
 	
 	<TileLayoutBox item="SDBW_Labels">
@@ -556,7 +645,7 @@
 		<RightAnchorToLeft>false</RightAnchorToLeft>
 		<Style_Transparent>true</Style_Transparent>
 		<Style_Tooltip>false</Style_Tooltip>
-		<Spacing>7</Spacing>
+		<Spacing>5</Spacing>
 		<SecondarySpacing>0</SecondarySpacing>
 		<HorizontalFirst>false</HorizontalFirst>
 		<AnchorToTop>true</AnchorToTop>
@@ -575,6 +664,9 @@
 		<Pieces>SDBW_Buff8</Pieces>
 		<Pieces>SDBW_Buff9</Pieces>
 		<Pieces>SDBW_Buff10</Pieces>
+		<Pieces>SDBW_Buff11</Pieces>
+		<Pieces>SDBW_Buff12</Pieces>
+		<Pieces>SDBW_Buff13</Pieces>
 	</TileLayoutBox>
 	
 	<TileLayoutBox item="SDBW_Numbers">
@@ -584,7 +676,7 @@
 		<RightAnchorToLeft>false</RightAnchorToLeft>
 		<Style_Transparent>true</Style_Transparent>
 		<Style_Tooltip>false</Style_Tooltip>
-		<Spacing>7</Spacing>
+		<Spacing>5</Spacing>
 		<SecondarySpacing>0</SecondarySpacing>
 		<HorizontalFirst>false</HorizontalFirst>
 		<AnchorToTop>true</AnchorToTop>
@@ -602,6 +694,9 @@
 		<Pieces>SDBW_Buff8Number</Pieces>
 		<Pieces>SDBW_Buff9Number</Pieces>
 		<Pieces>SDBW_Buff10Number</Pieces>
+		<Pieces>SDBW_Buff11Number</Pieces>
+		<Pieces>SDBW_Buff12Number</Pieces>
+		<Pieces>SDBW_Buff13Number</Pieces>
 	</TileLayoutBox>
 	
 	<Screen item="ShortDurationBuffWindow">
@@ -613,7 +708,7 @@
 		</Location>
 		<Size>
 			<CX>191</CX>
-			<CY>245</CY>
+			<CY>275</CY>
 		</Size>
 		<Style_Transparent>true</Style_Transparent>
 		<DrawTemplate>WDT_RoundedNoTitle</DrawTemplate>
